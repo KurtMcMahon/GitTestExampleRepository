@@ -30,4 +30,9 @@
 {
     NSLog(@"The button was clicked!");
 }
+
+- (void)anotherFakeMethod
+{
+    NSLog(@"This method does nothing either");
+}
 @end
