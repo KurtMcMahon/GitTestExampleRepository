@@ -21,6 +21,7 @@
 		70207E5E1A1A492600D0AA4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70207E401A1A492600D0AA4F /* UIKit.framework */; };
 		70207E661A1A492600D0AA4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70207E641A1A492600D0AA4F /* InfoPlist.strings */; };
 		70207E681A1A492600D0AA4F /* GitTestExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70207E671A1A492600D0AA4F /* GitTestExampleTests.m */; };
+		70207E731A1A4B4100D0AA4F /* MapItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 70207E721A1A4B4100D0AA4F /* MapItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		70207E631A1A492600D0AA4F /* GitTestExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestExampleTests-Info.plist"; sourceTree = "<group>"; };
 		70207E651A1A492600D0AA4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70207E671A1A492600D0AA4F /* GitTestExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestExampleTests.m; sourceTree = "<group>"; };
+		70207E711A1A4B4100D0AA4F /* MapItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapItinerary.h; sourceTree = "<group>"; };
+		70207E721A1A4B4100D0AA4F /* MapItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				70207E4E1A1A492600D0AA4F /* Main.storyboard */,
 				70207E511A1A492600D0AA4F /* ViewController.h */,
 				70207E521A1A492600D0AA4F /* ViewController.m */,
+				70207E711A1A4B4100D0AA4F /* MapItinerary.h */,
+				70207E721A1A4B4100D0AA4F /* MapItinerary.m */,
 				70207E541A1A492600D0AA4F /* Images.xcassets */,
 				70207E431A1A492600D0AA4F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				70207E531A1A492600D0AA4F /* ViewController.m in Sources */,
 				70207E4D1A1A492600D0AA4F /* AppDelegate.m in Sources */,
+				70207E731A1A4B4100D0AA4F /* MapItinerary.m in Sources */,
 				70207E491A1A492600D0AA4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
